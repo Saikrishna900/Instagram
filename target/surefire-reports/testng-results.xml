@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-24T16:34:34 IST" name="Surefire suite" finished-at="2023-04-24T16:35:54 IST" duration-ms="79480">
+    <groups>
+    </groups>
+    <test started-at="2023-04-24T16:34:34 IST" name="Surefire test" finished-at="2023-04-24T16:35:54 IST" duration-ms="79480">
+      <class name="org.example.AppTest">
+        <test-method signature="LoginVerification()[pri:1, instance:org.example.AppTest@515ebef3]" started-at="2023-04-24T16:34:35 IST" name="LoginVerification" finished-at="2023-04-24T16:34:52 IST" duration-ms="17433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginVerification -->
+        <test-method signature="InfoButton()[pri:2, instance:org.example.AppTest@515ebef3]" started-at="2023-04-24T16:34:52 IST" name="InfoButton" finished-at="2023-04-24T16:35:03 IST" duration-ms="11028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InfoButton -->
+        <test-method signature="ExploreButton()[pri:3, instance:org.example.AppTest@515ebef3]" started-at="2023-04-24T16:35:03 IST" name="ExploreButton" finished-at="2023-04-24T16:35:08 IST" duration-ms="5227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExploreButton -->
+        <test-method signature="SearchButton()[pri:4, instance:org.example.AppTest@515ebef3]" started-at="2023-04-24T16:35:08 IST" name="SearchButton" finished-at="2023-04-24T16:35:25 IST" duration-ms="16701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchButton -->
+        <test-method signature="MessageButton()[pri:5, instance:org.example.AppTest@515ebef3]" started-at="2023-04-24T16:35:25 IST" name="MessageButton" finished-at="2023-04-24T16:35:37 IST" duration-ms="12316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MessageButton -->
+        <test-method signature="postButton()[pri:6, instance:org.example.AppTest@515ebef3]" started-at="2023-04-24T16:35:37 IST" name="postButton" finished-at="2023-04-24T16:35:43 IST" duration-ms="5485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postButton -->
+        <test-method signature="likComm()[pri:7, instance:org.example.AppTest@515ebef3]" started-at="2023-04-24T16:35:43 IST" name="likComm" finished-at="2023-04-24T16:35:45 IST" duration-ms="2234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- likComm -->
+        <test-method signature="Comment()[pri:8, instance:org.example.AppTest@515ebef3]" started-at="2023-04-24T16:35:45 IST" name="Comment" finished-at="2023-04-24T16:35:52 IST" duration-ms="7440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Comment -->
+        <test-method signature="closeButton()[pri:9, instance:org.example.AppTest@515ebef3]" started-at="2023-04-24T16:35:52 IST" name="closeButton" finished-at="2023-04-24T16:35:53 IST" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeButton -->
+        <test-method signature="more()[pri:10, instance:org.example.AppTest@515ebef3]" started-at="2023-04-24T16:35:53 IST" name="more" finished-at="2023-04-24T16:35:54 IST" duration-ms="1333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- more -->
+      </class> <!-- org.example.AppTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

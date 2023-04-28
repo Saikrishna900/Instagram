@@ -1,0 +1,11 @@
+com\browser\FactoryBrowser.class
+org\example\ExplorePage.class
+org\example\LoginPage.class
+org\example\SearchPage.class
+org\example\MessagePage.class
+org\example\CommentPage.class
+org\example\LikePage.class
+org\example\LogOut.class
+org\example\InfoPage.class
+org\example\PostPage.class
+org\example\ClosePost.class
