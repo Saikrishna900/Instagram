@@ -1,9 +1,12 @@
 
 package org.example;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+
+import java.util.ResourceBundle;
 
 
 public class LoginPage {
@@ -19,27 +22,18 @@ public class LoginPage {
     public LoginPage(WebDriver driver) {
         this.driver = driver;
     }
+    public void loginWebsite() throws InterruptedException {
+        ResourceBundle r =ResourceBundle.getBundle("config");
+        String username=r.getString("username");
+        String password=r.getString("password");
 
-//    public void loginWebsite(String username, String password) throws InterruptedException {
-//        uname.sendKeys(username);
-//        uname.click();
-//        Thread.sleep(2000);
-//        pname.sendKeys(password);
-//        pname.click();
-//        Thread.sleep(2000);
-//        loginButton.click();
-//        loginButton.click();
-//        Thread.sleep(2000);
-//    }
+        driver.findElement(By.name("username")).sendKeys(username);
+        Thread.sleep(2000);
+        driver.findElement(By.name("password")).sendKeys(password);
+        Thread.sleep(2000);
 
-    public void loginWebsiteagain(String username, String password) throws InterruptedException {
-      //  uname.clear();
-        uname.sendKeys(username);
-        Thread.sleep(2000);
-      //  pname.clear();
-        pname.sendKeys(password);
-        Thread.sleep(2000);
         loginButton.click();
-        Thread.sleep(6000);
+        Thread.sleep(4000);
     }
+
 }

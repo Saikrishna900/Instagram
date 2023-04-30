@@ -12,10 +12,9 @@ public class AppTest {
     @Test(priority = 1)
     public void LoginVerification() throws InterruptedException {
         LoginPage login = PageFactory.initElements(driver, LoginPage.class);
-        //UI-1
-       // login.loginWebsite("Hari_jjjk", "e5612323");
-        //UI-2
-        login.loginWebsiteagain("Hari_Epam", "epam123");
+       // UI-1
+        login.loginWebsite();
+
     }
     @Test(priority = 2)
     public void InfoButton() throws InterruptedException {
